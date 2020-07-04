@@ -1,0 +1,68 @@
+body{
+  width: 100%;
+  max-width: 100%;
+  margin: auto;
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url('background.jpg');
+  background-size: cover;
+  background-position: center;
+}
+.mainBlock{
+  width: 60%;
+  margin: auto;
+  background-color: #e8e8e8;
+  margin-top: 180px;
+  margin-bottom: 50px;
+  border-radius: 2px;
+  padding: 25px 5px 25px 5px;
+}
+h3{
+  text-align: center;
+  font-size: 35px;
+}
+.grid{
+  display: grid;
+  grid-template-columns: 45% 55%;
+  margin-top: 60px;
+}
+.submit{
+  font-family: 'Acme', sans-serif;
+  font-size: 20px;
+  border-radius: 5px;
+  padding: 2px 15px 4px 15px;
+  border-style: ridge;
+  margin-left: 45%;
+}
+.submit:hover{
+  background-color: #bbbbbb;
+  color: white;
+  border: 2px solid darkorange;
+}
+label{
+  font-family: 'Acme', sans-serif;
+  font-size: 24px;
+  margin-top: 7px;
+  text-align: center;
+}
+table{
+  max-width: 100%;
+  width: 100%;
+}
+.textField{
+  width: 80%;
+  height: 35px;
+  border-radius: 5px;
+  text-align: center;
+  font-family: cursive;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+.errorMessage{
+  margin-top: 1em;
+  font-family: cursive;
+  font-size: 20px;
+  color: red;
+  text-align: center;
+}
+#successMessage{
+  color: green;
+}
